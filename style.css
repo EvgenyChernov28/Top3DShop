@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+}
+{}
+
+.contact-us {
+    height: 32px;
+    margin: 12px calc(20px + (48 - 20)*((100vw - 1024px) / (1920 - 1024))) 0;
+}
+
+.contact-us-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: #FED600;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 6px calc(20px + (168 - 20)*((100vw - 1024px) / (1920 - 1024)));
+}
+
+.contact-us-list-town {
+    display: flex;
+}
+
+.contact-us-list-town div {
+    padding: 0px calc(4px + (10 - 4)*((100vw - 1024px) / (1920 - 1024)));
+}
+
+.contact-us-list-connect {
+    display: flex;
+}
+
+.contact-us-list-connect div {
+    padding: 0px calc(4px + (10 - 4)*((100vw - 1024px) / (1920 - 1024)));
+}
+
+.contact-us-list-connect-icons {
+    display: flex;
+}
+
+.contact-us-list-connect-icons div {
+    padding: 0px calc(4px + (10 - 4)*((100vw - 1024px) / (1920 - 1024)));
+}
+
+.head-menu {
+    margin: 0 calc(20px + (48 - 20)*((100vw - 1024px) / (1920 - 1024)));
+    height: 204px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.16);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.users-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    padding: 16px calc(20px + (168 - 20)*((100vw - 1024px) / (1920 - 1024))) 0px;
+}
+
+.users-menu-text {
+    font-style: italic;
+}
+
+.users-menu-text-icon {
+    color: red;
+}
+
+.users-menu li input {
+    width: calc(300px + (521 - 300)*((100vw - 1024px) / (1920 - 1024)));
+    height: 44px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-left: 16px;
+}
+
+.users-menu li button {
+    width: 75px;
+    height: 36px;
+    margin-left: -80px;
+    border: 2px solid #D2001C;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #D2001C;
+    background-color: #fff;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.users-menu-authorization a {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+}
+
+.users-menu-authorization p {
+    margin-left: 10px;
+}
+
+.basket {
+    background: #D2001C;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 0px 17px 0px 17px;
+}
+
+.basket a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 10px;
+}
+
+.basket p {
+    margin-left: 6px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    margin: auto;
+    padding: 13px calc(20px + (168 - 20)*((100vw - 1024px) / (1920 - 1024))) 0px;
+    line-height: 13px;
+}
+
+.info a {
+    text-decoration: none;
+    color: #000;
+}
+
+.head-menu hr {
+    height: 1px;
+    background: #BDBDBD;
+    opacity: 0.35;
+    margin-top: 16px;
+}
+
+.equipment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 21px;
+    padding: 0px calc(20px + (168 - 20)*((100vw - 1024px) / (1920 - 1024)));
+}
+
+.ourteam {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.ourteam img {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.ourteam-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.ourteam-info-summary {
+    width: 30%;
+    text-align: left;
+}
+
+.ourteam-info-summary h2 {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 32px;
+    margin-bottom: 52px;
+}
+
+.ourteam-info-summary a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    background-color: #D2001C;
+    border-radius: 4px;
+    padding: 12px 70px;
+    letter-spacing: -0.7px;
+}
+
+.ourteam-info-summary p {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+    margin-top: 32px;
+    letter-spacing: -0.7px;
+}
+
+.ourteam-info-text {
+    width: 60%;
+    text-align: justify;
+    font-family: 'SF Pro Text';
+    font-weight: 500;
+    letter-spacing: -0.7px;
+    color: #4D4D4D;
+}
+
+.ourteam-footer {
+    text-align: left;
+    margin: 0 5%;
+    position: relative;
+}
+
+.ourteam-footer h3 {
+    overflow: hidden;
+    float: left;
+    position: absolute;
+    background: #fff;
+    margin-top: -19px;
+    padding-right: 22px;
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    letter-spacing: -0.7px;
+}
+
+.ourteam-footer hr {
+    background: none;
+    height: 0;
+    opacity: 0.1;
+    border: 1px solid #000000;
+    margin-top: 83px;
+}
+
+.ourteam-aboutUs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 74px;
+}
+
+.ourteam-aboutUs a {
+    color: #4D4D4D;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    display: flex;
+    margin-top: 55px;
+}
+
+.ourteam-aboutUs a p{
+    border-bottom: 1px solid #000;
+}
+
+.ourteam-aboutUs a img {
+    width: 6px;
+    height: 9px;
+    margin: 6px 0 0 14px;
+}
+.ourteam-aboutUs a:first-child{
+    color: #D2001C;
+}
+.ourteam-aboutUs a:first-child p{
+    border-bottom: 1px solid #D2001C;
+}
+
+.footer{
+    background-color: #F9F9F9;
+    margin: 70px 42px 105px 46px;
+    text-align: center;
+    
+}
+
+.footer-slider{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    margin: 0 137px 0 137px;
+}
+.footer-slider h3{
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #222222;
+}
+.footer-slider-button :first-child{
+    border-top-left-radius: 6px; 
+    border-bottom-left-radius: 6px;
+}
+.footer-slider-button :last-child{
+    border-top-right-radius: 6px; 
+    border-bottom-right-radius: 6px;
+}
+.footer-slider-button img{
+    padding: 11px 15px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+.footer-video{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 137px 0 137px;
+    padding-bottom: 60px;
+}
+
