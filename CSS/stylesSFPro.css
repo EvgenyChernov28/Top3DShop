@@ -1,31 +1,31 @@
 @font-face {
 	font-family: 'SF Pro Text';
-	src: url('SF-UI-Text-Regular.ttf');
-	src: local('SF-UI-Text-Regular.ttf') format('truetype');
+	src: url('../fonts/SanFranciscoPro/SF Font for Windows/SF-UI-Text-Regular.ttf');
+	src: local('../fonts/SanFranciscoPro/SF Font for Windows/SF-UI-Text-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'SF Pro Text';
-	src: url('SF-UI-Text-Medium.ttf');
-	src: local('SF-UI-Text-Medium.ttf') format('truetype');
+	src: url('../fonts/SanFranciscoPro/SF Font for Windows/SF-UI-Text-Medium.ttf');
+	src: local('../fonts/SanFranciscoPro/SF Font for Windows/SF-UI-Text-Medium.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'SF Pro Text';
-	src: url('SF-UI-Text-Bold.ttf');
-	src: local('SF-UI-Text-Bold.ttf') format('truetype');
+	src: url('../fonts/SanFranciscoPro/SF Font for Windows/SF-UI-Text-Bold.ttf');
+	src: local('../fonts/SanFranciscoPro/SF Font for Windows/SF-UI-Text-Bold.ttf') format('truetype');
 	font-weight: Bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'SF Pro Display';
-	src: url('SF-UI-Display-Regular.ttf');
-	src: local('SF-UI-Display-Regular.ttf') format('truetype');
+	src: url('../fonts/SanFranciscoPro/SF Font for Windows/SF-UI-Display-Regular.ttf');
+	src: local('../fonts/SanFranciscoPro/SF Font for Windows/SF-UI-Display-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }

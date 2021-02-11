@@ -1,7 +1,7 @@
 * {
     margin: 0;
 }
-{}
+
 
 .contact-us {
     height: 32px;
@@ -116,7 +116,7 @@
     background: #D2001C;
     border-radius: 4px;
     text-decoration: none;
-    padding: 0px 17px 0px 17px;
+    padding: 6px 17px;
 }
 
 .basket a {
@@ -164,21 +164,19 @@
 }
 
 .ourteam {
-    margin-top: 70px;
+    margin: 70px calc(20px + (100 - 20)*((100vw - 1024px) / (1920 - 1024))) 0;
     text-align: center;
-    margin-left: 48px;
-    margin-right: 48px;
 }
 
 .ourteam img {
-    width: 90%;
+    width: calc(100vw - 2*(40px + (200 - 40)*((100vw - 1024px) / (1920 - 1024))));
     margin-bottom: 50px;
 }
 
 .ourteam-info {
     display: flex;
     justify-content: space-between;
-    margin: 0 5%;
+    margin: 0 calc(20px + (90 - 20)*((100vw - 1024px) / (1920 - 1024)));
 }
 
 .ourteam-info-summary {
@@ -233,7 +231,7 @@
 
 .ourteam-footer {
     text-align: left;
-    margin: 0 5%;
+    margin: 0 calc(20px + (90 - 20)*((100vw - 1024px) / (1920 - 1024)));
     position: relative;
 }
 
@@ -264,7 +262,7 @@
 .ourteam-aboutUs {
     display: flex;
     justify-content: space-between;
-    margin: 0 74px;
+    margin: 0 calc(20px + (90 - 20)*((100vw - 1024px) / (1920 - 1024)));
 }
 
 .ourteam-aboutUs a {
@@ -306,7 +304,7 @@
     display: flex;
     justify-content: space-between;
     padding: 70px 0;
-    margin: 0 137px 0 137px;
+    margin: 0 calc(110px + (137 - 110)*((100vw - 1024px) / (1920 - 1024)));
 }
 .footer-slider h3{
     font-family: "SF Pro Display";
@@ -333,7 +331,7 @@
 .footer-video{
     display: flex;
     justify-content: space-between;
-    margin: 0 137px 0 137px;
+    margin: 0 calc(110px + (137 - 110)*((100vw - 1024px) / (1920 - 1024)));
     padding-bottom: 60px;
 }
 
